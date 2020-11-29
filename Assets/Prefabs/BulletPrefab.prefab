@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 4145185814940419058}
   - component: {fileID: 4145185814940419057}
   - component: {fileID: 4145185814940419056}
+  - component: {fileID: -8769916990753071558}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: BulletPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,3 +134,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 896c2e85183fd6e4786a563092c0542c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-8769916990753071558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4145185814940418959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 278670cae5ddd5e4dae425bd141f54e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}

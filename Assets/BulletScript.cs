@@ -5,7 +5,12 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
     Vector3 screenPos;
+    private GameController gameController;
 
+    void Start() 
+    {
+        gameController = GameObject.Find("GameController").GetComponent<GameController>();
+    }
     void Update()
     {
         screenPos = Camera.main.WorldToScreenPoint(transform.position);
@@ -20,6 +25,7 @@ public class BulletScript : MonoBehaviour
         if (Collision.gameObject.tag == "Enemy")
         {
             Destroy(gameObject);
+            gameController.ScorePoint();
         }
     }
 }
