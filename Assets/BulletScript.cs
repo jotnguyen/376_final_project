@@ -25,6 +25,7 @@ public class BulletScript : MonoBehaviour
         if (Collision.gameObject.tag == "Enemy")
         {
             Destroy(gameObject);
+            Destroy(Collision.gameObject);
             gameController.ScorePoint();
         }
     }
