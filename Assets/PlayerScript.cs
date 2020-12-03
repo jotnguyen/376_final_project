@@ -22,4 +22,14 @@ public class PlayerScript : MonoBehaviour
 
         rb.velocity = new Vector2(horizontal * speed, vertical * speed);
     }
+
+    private void OnCollisionEnter2D(Collision2D Collision)
+    {
+        if (Collision.gameObject.tag == "Enemy")
+        {
+            var playerRenderer = this.gameObject.GetComponent<Renderer>();
+
+            playerRenderer.material.SetColor("_Color", Random.ColorHSV());
+        }
+    }
 }
