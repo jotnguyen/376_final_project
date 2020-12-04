@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
 {
 
     private int score = 0;
-    private int health = 3;
+    private int health = 2;
     public TMP_Text healthText;
     public TMP_Text scoreText;
     public AudioClip destroyed;

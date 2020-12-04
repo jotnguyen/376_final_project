@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ede33ab-3c81-4b9c-a4a2-316eb7b17022" name="Default Changelist" comment="added sound to walls">
+    <list default="true" id="3ede33ab-3c81-4b9c-a4a2-316eb7b17022" name="Default Changelist" comment="added enemies to the 2nd level and a win screen">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assets.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assets.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnemyScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EnemyScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scenes/LV2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/LV2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Self assessment.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Self assessment.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +52,10 @@
         <option value="$PROJECT_DIR$/ManagerScript.cs" />
         <option value="$PROJECT_DIR$/Wall.cs" />
         <option value="$PROJECT_DIR$/Box.cs" />
-        <option value="$PROJECT_DIR$/PlayerScript.cs" />
         <option value="$PROJECT_DIR$/BulletScript.cs" />
-        <option value="$PROJECT_DIR$/GameController.cs" />
         <option value="$PROJECT_DIR$/EnemyScript.cs" />
+        <option value="$PROJECT_DIR$/GameController.cs" />
+        <option value="$PROJECT_DIR$/PlayerScript.cs" />
       </list>
     </option>
   </component>
@@ -79,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607030039003</updated>
-      <workItem from="1607030044502" duration="15181000" />
+      <workItem from="1607030044502" duration="15895000" />
     </task>
     <task id="LOCAL-00001" summary="added health and next level">
       <created>1607047883266</created>
@@ -130,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607061894153</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added enemies to the 2nd level and a win screen">
+      <created>1607063710493</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607063710493</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,16 +162,17 @@
     <MESSAGE value="added sound files" />
     <MESSAGE value="added walls and boxes to the 2nd level" />
     <MESSAGE value="added sound to walls" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sound to walls" />
+    <MESSAGE value="added enemies to the 2nd level and a win screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="added enemies to the 2nd level and a win screen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1240" height="677" key="VCS.FileHistoryDialog" timestamp="1607043866643">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="123" width="1240" height="677" key="VCS.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1607043866643" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1607061904695">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1607063716948">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1607061904695" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1607063716948" />
   </component>
 </project>

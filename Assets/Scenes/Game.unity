@@ -665,7 +665,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &226335362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1057,7 +1057,9 @@ MonoBehaviour:
   healthText: {fileID: 1934982369}
   scoreText: {fileID: 155697365}
   destroyed: {fileID: 8300000, guid: 7fa623cfecb334f50a702bb004e40c60, type: 3}
+  box: {fileID: 0}
   win: {fileID: 8300000, guid: 1b168bd05a4b34320b241a7052c81dcc, type: 3}
+  wall: {fileID: 0}
 --- !u!82 &569811076
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1359,6 +1361,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3999818838016359298, guid: 4cf6d108f1576af4594ed86b6516ea01,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7243966423660429053, guid: 4cf6d108f1576af4594ed86b6516ea01,
         type: 3}
       propertyPath: m_Name
@@ -1433,6 +1440,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3999818838016359298, guid: 4cf6d108f1576af4594ed86b6516ea01,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7243966423660429053, guid: 4cf6d108f1576af4594ed86b6516ea01,
         type: 3}
       propertyPath: m_Name
@@ -1891,7 +1903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Health: 3'
+  m_text: 'Health: 2'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1975,6 +1987,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3999818838016359298, guid: 4cf6d108f1576af4594ed86b6516ea01,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7243966423660429053, guid: 4cf6d108f1576af4594ed86b6516ea01,
         type: 3}
       propertyPath: m_Name
