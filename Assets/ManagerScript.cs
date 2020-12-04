@@ -7,8 +7,8 @@ public class ManagerScript : MonoBehaviour
     public GameObject bulletPrefab;
     public GameObject cannon;
     private float bulletSpeed = 10.0f;
-    
 
+    public AudioClip shoot;
     public GameObject cursor;
     private Vector3 mouseVector;
     private Vector3 target;
@@ -34,6 +34,7 @@ public class ManagerScript : MonoBehaviour
             // Normalize, keep vectors in same direction but length 1
             direction.Normalize();
             FireBullet(direction, 1.0f);
+            GetComponent<AudioSource>().PlayOneShot(shoot, 0.2f);
         }
     }
 

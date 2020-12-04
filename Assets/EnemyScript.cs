@@ -8,10 +8,6 @@ public class EnemyScript : MonoBehaviour
     int MoveSpeed = 2;
     int MaxDist = 5;
     int MinDist = 2;
-
-
-
-
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();

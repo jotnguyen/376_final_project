@@ -7,7 +7,7 @@ public class PlayerScript : MonoBehaviour
     private float horizontal;
     private float vertical;
     Rigidbody2D rb;
-    private float speed = 4.0f;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +17,42 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
-        vertical = Input.GetAxisRaw("Vertical");
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        {
+            if (transform.position.x >= 8.4f) {}
+            else
+            {
+                transform.position += new Vector3(0.03f, 0f, 0f);
+            }
+        }
 
-        rb.velocity = new Vector2(horizontal * speed, vertical * speed);
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        {
+            if (transform.position.x <= -8.4f) {}
+            else
+            {
+                transform.position -= new Vector3(0.03f, 0f, 0f);
+            }
+        }
+        
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
+        {
+            if (transform.position.y >= 4.5f) {}
+            else
+            {
+                transform.position += new Vector3(0f, 0.03f, 0f);
+            }
+        }
+
+        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
+        {
+            if (transform.position.y <= -4.5f) {}
+            else
+            {
+                transform.position -= new Vector3(0f, 0.03f, 0f);
+            }
+        }
+        
     }
 
     private void OnCollisionEnter2D(Collision2D Collision)

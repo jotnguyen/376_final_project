@@ -13,6 +13,8 @@ public class GameController : MonoBehaviour
     private int health = 3;
     public TMP_Text healthText;
     public TMP_Text scoreText;
+    public AudioClip destroyed;
+    public AudioClip win;
     
     // Start is called before the first frame update
     void Start()
@@ -30,10 +32,12 @@ public class GameController : MonoBehaviour
     {
         score++;
         scoreText.text = "Score: " + score.ToString();
-
+        GetComponent<AudioSource>().PlayOneShot(destroyed, 0.2f);
+        
         if (score == 3)
         {
-            NextLevel();
+            GetComponent<AudioSource>().PlayOneShot(win, 0.2f);
+            Invoke("NextLevel", 1);
         }
     }
 
