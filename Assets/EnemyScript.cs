@@ -6,8 +6,8 @@ public class EnemyScript : MonoBehaviour
 {
     private Transform Player;
     int MoveSpeed = 2;
-    int MaxDist = 5;
-    int MinDist = 2;
+    //int MaxDist = 5;
+    //int MinDist = 2;
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
@@ -18,10 +18,5 @@ public class EnemyScript : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, Player.position, MoveSpeed * Time.deltaTime);
 
     }
-
-    void OnCollisionEnter2D(Collision2D collision) 
-    {
-        Destroy(this.gameObject);
-    }
-
+    
 }
