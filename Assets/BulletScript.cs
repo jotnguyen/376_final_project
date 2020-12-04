@@ -28,5 +28,11 @@ public class BulletScript : MonoBehaviour
             Destroy(Collision.gameObject);
             gameController.ScorePoint();
         }
+
+        else if (Collision.gameObject.tag == "Wall")
+        {
+            Destroy(gameObject);
+        }
+        
     }
 }

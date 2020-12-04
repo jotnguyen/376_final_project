@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour
     public TMP_Text healthText;
     public TMP_Text scoreText;
     public AudioClip destroyed;
+    public AudioClip box;
     public AudioClip win;
     
     // Start is called before the first frame update
@@ -50,6 +51,11 @@ public class GameController : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+    }
+
+    public void BoxDestroyed()
+    {
+        GetComponent<AudioSource>().PlayOneShot(box, 0.2f);
     }
 
     public void NextLevel()

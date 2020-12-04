@@ -148,3 +148,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthText: {fileID: 0}
   scoreText: {fileID: 0}
+  destroyed: {fileID: 0}
+  win: {fileID: 0}
