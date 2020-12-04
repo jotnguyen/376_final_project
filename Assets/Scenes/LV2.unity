@@ -1462,6 +1462,7 @@ MonoBehaviour:
   destroyed: {fileID: 8300000, guid: 7fa623cfecb334f50a702bb004e40c60, type: 3}
   box: {fileID: 8300000, guid: 73ba53aa491b2442f8d13b03cdf11be0, type: 3}
   win: {fileID: 8300000, guid: 1b168bd05a4b34320b241a7052c81dcc, type: 3}
+  wall: {fileID: 8300000, guid: 76bfa58c4738a4dceaad9f42681b0817, type: 3}
 --- !u!82 &569811076
 AudioSource:
   m_ObjectHideFlags: 0

@@ -16,6 +16,8 @@ public class GameController : MonoBehaviour
     public AudioClip destroyed;
     public AudioClip box;
     public AudioClip win;
+    public AudioClip wall;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -56,6 +58,11 @@ public class GameController : MonoBehaviour
     public void BoxDestroyed()
     {
         GetComponent<AudioSource>().PlayOneShot(box, 0.2f);
+    }
+
+    public void WallShot()
+    {
+        GetComponent<AudioSource>().PlayOneShot(wall, 0.2f);
     }
 
     public void NextLevel()

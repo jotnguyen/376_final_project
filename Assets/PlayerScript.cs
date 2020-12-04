@@ -60,7 +60,7 @@ public class PlayerScript : MonoBehaviour
         if (Collision.gameObject.tag == "Enemy")
         {
             var playerRenderer = this.gameObject.GetComponent<Renderer>();
-            //playerRenderer.material.SetColor("_Color", Color.red);
+            playerRenderer.material.SetColor("_Color", Color.red);
             GameObject.Find("GameController").GetComponent<GameController>().HealthLoss();
         }
     }

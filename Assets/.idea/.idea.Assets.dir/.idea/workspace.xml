@@ -19,21 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ede33ab-3c81-4b9c-a4a2-316eb7b17022" name="Default Changelist" comment="added sound files">
-      <change afterPath="$PROJECT_DIR$/Box.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Box.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Box.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sound/hit_7.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sound/hit_7.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wall.png.meta" afterDir="false" />
+    <list default="true" id="3ede33ab-3c81-4b9c-a4a2-316eb7b17022" name="Default Changelist" comment="added walls and boxes to the 2nd level">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assets.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assets.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BulletScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prefabs/BulletPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Prefabs/BulletPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenes/LV2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/LV2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/Game 2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/Game 2.unity.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +52,11 @@
       <list>
         <option value="$PROJECT_DIR$/PlayerLV1.cs" />
         <option value="$PROJECT_DIR$/EnemyScript.cs" />
-        <option value="$PROJECT_DIR$/PlayerScript.cs" />
         <option value="$PROJECT_DIR$/ManagerScript.cs" />
         <option value="$PROJECT_DIR$/Wall.cs" />
-        <option value="$PROJECT_DIR$/BulletScript.cs" />
         <option value="$PROJECT_DIR$/Box.cs" />
+        <option value="$PROJECT_DIR$/PlayerScript.cs" />
+        <option value="$PROJECT_DIR$/BulletScript.cs" />
         <option value="$PROJECT_DIR$/GameController.cs" />
       </list>
     </option>
@@ -88,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607030039003</updated>
-      <workItem from="1607030044502" duration="13684000" />
+      <workItem from="1607030044502" duration="14231000" />
     </task>
     <task id="LOCAL-00001" summary="added health and next level">
       <created>1607047883266</created>
@@ -118,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607053827510</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added walls and boxes to the 2nd level">
+      <created>1607058070538</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607058070538</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added walls and boxes to the 2nd level">
+      <created>1607058122041</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607058122041</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,16 +148,17 @@
     <MESSAGE value="added health and next level" />
     <MESSAGE value="added sound for shooting, enemies, and scoring" />
     <MESSAGE value="added sound files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sound files" />
+    <MESSAGE value="added walls and boxes to the 2nd level" />
+    <option name="LAST_COMMIT_MESSAGE" value="added walls and boxes to the 2nd level" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1240" height="677" key="VCS.FileHistoryDialog" timestamp="1607043866643">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="123" width="1240" height="677" key="VCS.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1607043866643" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1607053838856">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1607058131381">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1607053838856" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1607058131381" />
   </component>
 </project>
